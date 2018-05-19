@@ -1,0 +1,14 @@
+# general things to ignore
+logs/*.log
+logs/*.err
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+*.sublime-project
+*.sublime-workspace
+
+# due to using tox and pytest
+.cache
